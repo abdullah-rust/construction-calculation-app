@@ -1,0 +1,11 @@
+.menu-btn {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background: #262a38;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}

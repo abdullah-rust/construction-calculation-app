@@ -1,0 +1,66 @@
+* {
+  padding: 0%;
+  margin: 0%;
+}
+body {
+  background-color: rgb(55, 63, 81);
+  color: aliceblue;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin: 0%;
+  padding: 0%;
+  position: relative;
+  top: 0px;
+}
+
+header h1 .name {
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  background-color: rgb(0, 141, 213);
+  color: white;
+}
+
+.side_bar {
+  width: 300px;
+  height: 92vh;
+  z-index: 10;
+  background-color: rgb(43, 43, 43);
+  position: absolute;
+  overflow-y: auto;
+  overflow-x: auto;
+}
+
+.welcome-container {
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+  text-align: center;
+
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.welcome {
+  color: #ff6600;
+}
+
+p,
+li {
+  color: #ffffff;
+}
+
+.close-btn {
+  font-size: 30px;
+  margin-top: 15px;
+  margin-left: 15px;
+}
+
+.links {
+  text-decoration: none;
+  border: 1px solid white;
+  font-size: 30px;
+  color: white;
+  padding: 5px;
+}
